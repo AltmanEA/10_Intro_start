@@ -1,0 +1,11 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "semi": ["warn", "never"],
+    "quotes": ["warn",  "double"],
+    "@typescript-eslint/explicit-function-return-type": "warn"
+  }
+}
